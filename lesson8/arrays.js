@@ -218,23 +218,23 @@ const differentTypes = ['John', 'Alex', 'Olha', 5, true, false, null, 'Test'];
 // console.log(seven);
 
 
-// const array1 = [10, 20, 30];
-// const array2 = array1;
+const array1 = [10, 20, 30];
+const array2 = array1;
 
-// console.log(array1);
-// console.log(array2);
-// array1[1] = true;
-// console.log(array1);
-// console.log(array2);
+console.log(array1);
+console.log(array2);
+array1[1] = true;
+console.log(array1);
+console.log(array2);
 
 // const set = new Set(); // Порожній об'єкт Set
 // const setFromArray = new Set([1, 2, 3, 3, 4, 4, 5]); // Створення з масиву
 // console.log(setFromArray);
 
 
-const numbersArray1 = [1, 2, 3, 4, 5, 4, 3, 1];
-const uniqArray1 = numbersArray1.filter((item, index) => {
-    return numbersArray1.indexOf(item) === index;
-})
+// const numbersArray1 = [1, 2, 3, 4, 5, 4, 3, 1];
+// const uniqArray1 = numbersArray1.filter((item, index) => {
+//     return numbersArray1.indexOf(item) === index;
+// })
 
-console.log(uniqArray1);
+// console.log(uniqArray1);
