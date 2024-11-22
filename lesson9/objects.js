@@ -404,7 +404,7 @@ let car_data_sorted = [];
 for (const key in car_data) {
     const carPrice = car_data[key][4];
     if (carPrice > 50000) {
-        car_data_sorted.push({ name: key, color: car_data[key][0], price:  car_data[key][4] })
+        car_data_sorted.push({ name: key, color: car_data[key][0], price: car_data[key][4] })
     }
 
     // console.log(`${key}, ${car_data[key][4]}`);
