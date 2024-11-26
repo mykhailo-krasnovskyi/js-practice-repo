@@ -1,15 +1,20 @@
 export class Shape {
-    color;
 
     constructor(color) {
         this.color = color;
     }
 
     set color(color) {
-        this.color = color;
+        if (typeof color !== 'string') {
+            console.log('wrong color');
+            this._color = 'red';
+        } else {
+            this._color = color;
+        }
+
     }
     get color() {
-        return `Color is ${this.color}`;
+        return `Color is ${this._color}`;
     }
 
     area() {
